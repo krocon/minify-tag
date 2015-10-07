@@ -28,7 +28,7 @@ Advantage / Motivation: Instead of separate mapping files and html code the need
 <!-- node-minify-tag-end -->
 ...
 ```
-
+ 
 
 ## Usage
 ### As script <a name="asscript"></a>:
