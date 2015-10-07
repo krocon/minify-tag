@@ -1,6 +1,6 @@
 {
   "name": "node-minify-tag",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "You can use this code to minify your css and js code between begin and end comment tags in a given html file.",
   "main": "index.js",
   "scripts": {
