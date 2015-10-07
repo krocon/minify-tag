@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- node-minify-tag-glob( {"htmlOut": "_index2.prod.html"} ) -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index2</title>
+
+    <!-- node-minify-tag( {"fileOut":"_abc2.min.css", "type": "no-compress"} ) -->
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/base2.css" rel="stylesheet">
+    <!-- node-minify-tag-end -->
+</head>
+
+<body>
+
+<div>
+    <h1 id="base1">base1.css is fine!</h1>
+    <h1 id="base2">base2.css is fine!</h1>
+    <ng-include src="'html/include.html'" ></ng-include>
+</div>
+
+
+<!-- node-minify-tag( {"fileOut":"_abc2.min.js", "type": "no-compress"} ) -->
+<script src="js/jquery-2.0.3.js"></script>
+<script src="js/base.js"></script>
+<script src="js/base2.js"></script>
+<!-- node-minify-tag-end -->
+
+</body>
+</html>
